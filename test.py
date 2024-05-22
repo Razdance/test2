@@ -1,7 +1,7 @@
 import random
 
 def hangman():
-    word_list = ["python", "programmering", "spel", "dator", "kod", "pannkaka"]
+    word_list = ["python", "programmering", "spel", "dator", "kod", "pannkaka", "pannkaksdeg"]
     chosen_word = random.choice(word_list)
     guessed_word = ["_"] * len(chosen_word)
     attempts = 6
